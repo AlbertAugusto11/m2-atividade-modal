@@ -26,7 +26,7 @@
 .form__modal input:focus,
 .form__modal input:active {
   border: none;
-  outline: 1px solid #3d36ba;
+  outline: 2px solid #3d36ba;
 }
 .form__modal .form__div{
     display: flex;

@@ -1,0 +1,51 @@
+.modalContainer{
+    background-color: rgb(205, 204, 240);
+    border: none;
+    border-radius: 8px;
+}
+.modalContainer::backdrop{
+    background-color: black;
+    opacity: 0.9;
+}
+.form__modal{
+    width: 450px;
+    height: 400px;
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: rgb(205, 204, 240);
+}
+.form__modal input{
+    width: 380px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    padding-left: 30px;
+    align-self: center;
+    margin-top: 30px;
+}
+.form__modal input:focus,
+.form__modal input:active {
+  border: none;
+  outline: 1px solid #3d36ba;
+}
+.form__modal .form__div{
+    display: flex;
+    justify-content: end;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-right: 29px;
+}
+.form__div .form__button1{
+    height: 50px;
+    width: 110px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.form__div .form__button2{
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: rgb(108, 99, 255);
+    color: white;
+}
+

@@ -31,15 +31,27 @@
               id="password"
             />
           </div>
-          <a href="#" target="_blank" class="form__forgot-pass"
+          <a class="form__forgot-pass"
             >Esqueceu a senha?</a
           >
-          <a href="#" target="_blank" class="form__register-link">
+          <a class="form__register-link">
             Ainda não tem conta? Cadastre-se aqui!
           </a>
           <button class="form__login-btn">Entrar</button>
         </form>
       </div>
     </main>
+    <dialog class="modalContainer">
+      <form action="" method="post" class="form__modal">
+        <input type="text" placeholder="Nome">
+        <input type="text" placeholder="Sobrenome">
+        <input type="text" placeholder="Telefone ou Email">
+        <input type="password" placeholder="Nova Senha">
+        <div class="form__div">
+          <button type="button" class="form__button1">Fechar Modal</button>
+          <button type="submit" class="form__button2">Cadastrar</button>
+        </div>
+      </form>
+    </dialog>
   </body>
 </html>
